@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	MozRepl
 %define	pnam	RemoteObject
 Summary:	MozRepl::RemoteObject - MozRepl client, treat Javascript objects as Perl objects
